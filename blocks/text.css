@@ -1,9 +1,3 @@
-.content__text {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
 .text__title {
   font-size: 54px;
   line-height: 1.1;
@@ -33,10 +27,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .content__text {
-    margin: 90px 24px 88px;
-  }
-
   .text__title {
     font-size: 45px;
     line-height: 1.1;
@@ -62,10 +52,6 @@
 }
 
 @media screen and (max-width: 730px) {
-  .content__text {
-    margin: 64px 16px;
-  }
-
   .text__title {
     font-size: 32px;
     line-height: 1;
