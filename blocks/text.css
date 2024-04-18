@@ -1,23 +1,23 @@
-.content {
+.content__text {
   display: flex;
   flex-direction: column;
   max-width: 100%;
 }
 
-.content__title {
+.text__title {
   font-size: 54px;
   line-height: 1.1;
   margin: 100px 154px 32px 0;
 }
 
-.content__subtitle {
+.text__subtitle {
   font-size: 24px;
   line-height: 1.4;
   margin: 0 92px 10px 0;
   max-width: 738px;
 }
 
-.content__quote {
+.text__quote {
   font-size: 24px;
   line-height: 1.4;
   text-align: end;
@@ -25,7 +25,7 @@
   max-width: 732px;
 }
 
-.content__description {
+.text__description {
   font-size: 16px;
   line-height: 1.6;
   margin: 0 0 92px;
@@ -33,51 +33,51 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .content {
+  .content__text {
     margin: 90px 24px 88px;
   }
 
-  .content__title {
+  .text__title {
     font-size: 45px;
     line-height: 1.1;
     margin: 0 13px 50px 0;
     width: 100%;
   }
 
-  .content__subtitle {
+  .text__subtitle {
     margin: 0 0 26px;
     max-width: 720px;
     width: 100%;
   }
 
-  .content__quote {
+  .text__quote {
     margin: 0 0 32px;
     max-width: 720px;
   }
 
-  .content__description {
+  .text__description {
     margin: 0;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 730px) {
-  .content {
+  .content__text {
     margin: 64px 16px;
   }
 
-  .content__title {
+  .text__title {
     font-size: 32px;
     line-height: 1;
     margin: 0 0 40px;
     width: 100%;
   }
 
-  .content__subtitle {
+  .text__subtitle {
     margin: 0 0 10px;
   }
 
-  .content__description {
+  .text__description {
     margin: 0;
   }
 }
