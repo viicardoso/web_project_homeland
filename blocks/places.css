@@ -51,6 +51,7 @@
 
 .places__button:hover {
   opacity: 0.5;
+  background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
 }
 
 .places__content-texts {
