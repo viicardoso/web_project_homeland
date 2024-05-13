@@ -1,7 +1,8 @@
 .text {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 830px;
+  margin: 0 auto 0 148px;
 }
 
 .text__title {
@@ -35,12 +36,13 @@
 @media screen and (max-width: 1024px) {
   .text {
     margin: 90px 24px 88px;
+    max-width: 720px;
   }
 
   .text__title {
     font-size: 45px;
     line-height: 1.1;
-    margin: 0 13px 50px 0;
+    margin: 0 0 50px;
     width: 100%;
   }
 
@@ -61,9 +63,9 @@
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 544px) {
   .text {
-    margin: 64px 16px;
+    margin: 64px 16px 38px;
   }
 
   .text__title {

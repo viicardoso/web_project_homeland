@@ -1,7 +1,8 @@
 # De Pátria para Pátria
 
-Projeto final do sprint 5. Nele pude criar meu primeiro site responsivo atráves da at-rule 'media query', e também o primeiro projeto usando o figma como roteiro.
-Também será o primeiro projeto implantado no GitHub Pages
+Projeto final do sprint 6.
+Continuação do projeto do Sprint 5, nele foi adicionado mais duas seções. Seções feitas através do "css grid" e também foi fizemos sombras e gradientes lineares.
+O projeto se mantém responsivo.
 
 ## Recursos do projeto
 
@@ -11,6 +12,8 @@ Também será o primeiro projeto implantado no GitHub Pages
 - Design Web Adaptativo
 - Figma
 - Organização de arquivos BEM
+- Grid layout
+- Sombras e gradientes
 
 ## Link do projeto
 

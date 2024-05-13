@@ -5,11 +5,4 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  padding: 34px 148px 24px;
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    padding: 34px 0 24px;
-  }
 }
