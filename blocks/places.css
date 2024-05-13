@@ -13,7 +13,7 @@
     "title ."
     "title content"
     "img description"
-    "link description"
+    "button description"
     ". description";
 }
 
@@ -35,20 +35,21 @@
   opacity: 0.5;
 }
 
-.places__link {
+.places__button {
   max-width: 356px;
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
-  grid-area: link;
+  grid-area: button;
   padding: 13px 20px;
   background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   text-align: center;
+  border: none;
 }
 
-.places__link:hover {
+.places__button:hover {
   opacity: 0.5;
 }
 
@@ -105,7 +106,7 @@
     font-size: 16px;
   }
 
-  .places__link {
+  .places__button {
     max-width: 355px;
   }
 }
@@ -124,7 +125,7 @@
       "content"
       "img"
       "description"
-      "link";
+      "button";
   }
 
   .places__title {
@@ -143,10 +144,10 @@
     box-shadow: none;
   }
 
-  .places__link {
+  .places__button {
     max-width: 288px;
     font-size: 14px;
-    grid-area: link;
+    grid-area: button;
     padding: 13px 20px;
     margin: 0 auto 50px;
   }
