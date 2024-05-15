@@ -112,11 +112,14 @@
 
 @media screen and (max-width: 544px) {
   .places {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .places__card {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     grid-template-columns: 1fr;
     grid-column-gap: 30px;
     grid-template-areas:
@@ -129,7 +132,6 @@
 
   .places__title {
     font-size: 32px;
-    line-height: 1.1;
     margin-bottom: 30px;
     max-width: 288px;
     padding: 0 16px;
@@ -158,7 +160,6 @@
   }
 
   .places__description {
-    font-size: 16px;
     margin-bottom: 30px;
     padding: 0 16px;
   }

@@ -41,18 +41,23 @@
 
   .text__title {
     font-size: 45px;
-    margin: 0 0 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
     width: 100%;
   }
 
   .text__subtitle {
-    margin: 0 0 26px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 26px;
     max-width: 720px;
     width: 100%;
   }
 
   .text__quote {
-    margin: 0 0 32px;
+    margin-right: 0;
+    margin-left: 0;
     max-width: 720px;
   }
 
@@ -70,15 +75,11 @@
   .text__title {
     font-size: 32px;
     line-height: 1;
-    margin: 0 0 40px;
+    margin-bottom: 40px;
     width: 100%;
   }
 
   .text__subtitle {
-    margin: 0 0 10px;
-  }
-
-  .text__description {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 }
