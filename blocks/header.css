@@ -12,9 +12,7 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 0 auto;
     padding-top: 30px;
-    text-align: center;
   }
 
   .header__image {
@@ -24,7 +22,6 @@
 
 @media screen and (max-width: 544px) {
   .header {
-    margin: 0 auto;
     padding-top: 20px;
     text-align: center;
   }

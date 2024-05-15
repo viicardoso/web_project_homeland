@@ -1,8 +1,8 @@
 .text {
   display: flex;
   flex-direction: column;
-  max-width: 830px;
-  margin: 0 auto 0 148px;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 .text__title {
@@ -41,7 +41,6 @@
 
   .text__title {
     font-size: 45px;
-    line-height: 1.1;
     margin: 0 0 50px;
     width: 100%;
   }
@@ -58,7 +57,7 @@
   }
 
   .text__description {
-    margin: 0;
+    margin-bottom: 0;
     max-width: 720px;
   }
 }
@@ -80,6 +79,6 @@
   }
 
   .text__description {
-    margin: 0;
+    margin-bottom: 0;
   }
 }
